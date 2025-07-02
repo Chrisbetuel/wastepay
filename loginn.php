@@ -119,7 +119,7 @@
       errorMsg.classList.add('d-none');
 
       try {
-        const response = await fetch('https://zenopay-g25p.onrender.com/api/auth/token/', {
+        const response = await fetch('http://127.0.0.1:8000/api/auth/token/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'

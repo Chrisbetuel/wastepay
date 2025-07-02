@@ -434,7 +434,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     // API Configuration
-    const API_BASE_URL = 'https://zenopay-g25p.onrender.com/api/';
+    const API_BASE_URL = 'http://127.0.0.1:8000/api/';
     let authToken = localStorage.getItem('jwt') || '';
     
     // Check authentication on load

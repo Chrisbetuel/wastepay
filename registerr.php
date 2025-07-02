@@ -237,7 +237,7 @@
                 }
 
                 // Registration successful - now automatically log the user in
-                const loginResponse = await fetch('https://zenopay-g25p.onrender.com/api/auth/token/', {
+                const loginResponse = await fetch('http://127.0.0.1:8000/api/auth/token/', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
